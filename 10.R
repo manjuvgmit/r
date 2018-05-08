@@ -54,3 +54,15 @@ ggplot(data = mtcars, aes(x = hp, y = mpg))+
   xlab('HP')+
   ylab("MPG")+
   facet_grid(~gear) # ~ shows dependency. What the expresiion means "Clasify the chart based on Gear"
+
+# Exporting chart should be done via creating variable inside and then print will export
+
+z = ggplot(data = mtcars, aes(x = hp, y = mpg))+
+  geom_point(aes(col = factor(cyl), size = factor(gear)))+
+  geom_smooth(method = 'lm')+
+  ggtitle('Scatter Diagram', subtitle = 'Correlation B/W HP and MPG')+
+  xlab('HP')+
+  ylab("MPG")+
+  facet_grid(~gear)
+
+print(z)
