@@ -1,0 +1,21 @@
+Which is the most commonly used mode of contact?
+
+Within what period of time most leads would prefer to buy the car?
+
+Who is the best and worst lead provider?
+
+Do most of the customers prefer to buy new car?
+
+Give the list of states with their car model name which is in more demand or sold there?
+
+Which is the best trade in year for the manufacturer Toyota?
+
+Create  a new variable by combining the manufacturer name and model.
+
+Create a new variable and the values conditionally.
+If distance to dealer<10 - very near
+>=10 and <50             - near
+>=50 and <100            - far
+>=100                    - very far
+
+Which is the distance within which moct customers lie?
