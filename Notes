@@ -1,5 +1,4 @@
-
-
+################### R ###################
 Paste = concatination
 
 "Xlconnect"" for spreadsheed loading
@@ -8,3 +7,11 @@ Paste = concatination
 Python - install Anakonda which pulls are all dependencies.
 
 Go through - "CRISP -DM (cross-industry process for data mining)" - google
+
+################### Machine learning ###################
+Regression Analysis
+Historical data
+
+supervised - > predicting based on historical data
+
+unsupervised -> ranking result from search and 
