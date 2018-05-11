@@ -22,9 +22,9 @@ goldmodel = glm(goldtraining$Gold_Fund~.-ID-AMB-AccountSince-AvgMonthlyTxn-ELSS-
 predict(goldmodel, goldtraining, type = 'response') > 0.5
 
 #Confusion Matrix
-table(reality = goldtraining$Gold_Fund, model = predict(goldmodel, training, type = 'response') > 0.5 )
+table(reality = goldtraining$Gold_Fund, model = predict(goldmodel, training, type = 'response')>0.5)
 
-table(reality = goldtraining$Gold_Fund, model = predict(goldmodel, testing, type = 'response') > 0.5 )
+table(reality = goldtraining$Gold_Fund, model = predict(goldmodel, testing, type = 'response')>0.5)
 
 # Sensitivity, specificity, 
 
